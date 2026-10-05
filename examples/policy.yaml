@@ -1,0 +1,44 @@
+# Example gateway policy. Relative paths resolve from this file's folder.
+version: 1
+
+provider:
+  kind: fixture            # or "your_package.module:YourProvider"
+  options:
+    path: mailbox.json     # synthetic data, safe to commit
+
+# The label gate. The agent only ever sees messages that carry one of these
+# labels. A person decides what goes in by applying the label in the mail client.
+labels:
+  readable: [agent-inbox]
+
+# Master switch for write tools. Even when true, every write needs
+# confirmed=true from the caller, and the only write is "save a draft".
+writes:
+  enabled: true
+
+# The allowlist. A tool that isn't listed here doesn't exist for any caller.
+tools:
+  list_messages:
+    max_results: 20        # per call; bigger requests are clamped
+    max_items: 200         # per session; after this, calls are denied
+  search_messages:
+    max_results: 10
+    max_items: 100
+  read_message:
+    max_items: 50
+    max_body_chars: 4000
+  create_draft:
+    max_items: 5
+    allowed_recipient_domains: [example.com]
+
+# Per-caller scopes. Each MCP registration runs as one caller
+# (set with GATEWAY_CALLER), so two people can share one policy file
+# and still get different tools.
+callers:
+  analyst:
+    tools: [list_messages, search_messages, read_message]
+  ops-lead:
+    tools: [list_messages, search_messages, read_message, create_draft]
+
+audit:
+  path: ../.audit/gateway.jsonl

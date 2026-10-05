@@ -1,0 +1,115 @@
+{
+  "_comment": "Synthetic data. Every name, address, and number here is made up.",
+  "messages": [
+    {
+      "id": "m-1001",
+      "thread_id": "t-501",
+      "from": "dana.rivera@example.com",
+      "to": ["loans@example.com"],
+      "subject": "Pay stubs for application A-2231",
+      "body": "Hi team, attached are my last three pay stubs for application A-2231. My employer changed payroll providers in August, so the September stub looks different. Call me at +1 (555) 010-0142 if anything is missing. Thanks, Dana",
+      "labels": ["agent-inbox", "inbox"],
+      "received_at": "2026-09-30T14:12:00Z"
+    },
+    {
+      "id": "m-1002",
+      "thread_id": "t-502",
+      "from": "appraisals@example.org",
+      "to": ["loans@example.com"],
+      "subject": "Appraisal scheduled: 48 Elm St",
+      "body": "The appraisal for 48 Elm St is booked for October 6 at 10:00. The appraiser needs access to the basement and the attic. Reply to this email to reschedule.",
+      "labels": ["agent-inbox", "inbox"],
+      "received_at": "2026-09-30T09:40:00Z"
+    },
+    {
+      "id": "m-1003",
+      "thread_id": "t-503",
+      "from": "sam.okafor@example.net",
+      "to": ["loans@example.com"],
+      "subject": "Question about rate lock",
+      "body": "Is my rate locked yet? The builder says closing might slip two weeks. If the lock expires, what happens to my rate? You can reach me on 555 010 0177 or this email.",
+      "labels": ["agent-inbox"],
+      "received_at": "2026-09-29T18:03:00Z"
+    },
+    {
+      "id": "m-1004",
+      "thread_id": "t-501",
+      "from": "loans@example.com",
+      "to": ["dana.rivera@example.com"],
+      "subject": "Re: Pay stubs for application A-2231",
+      "body": "Thanks Dana. We received the stubs. We still need a signed employment verification form. A blank copy is attached.",
+      "labels": ["agent-inbox"],
+      "received_at": "2026-09-29T11:15:00Z"
+    },
+    {
+      "id": "m-1005",
+      "thread_id": "t-504",
+      "from": "title-desk@example.org",
+      "to": ["loans@example.com"],
+      "subject": "Title search complete for application A-2198",
+      "body": "Title search for A-2198 came back clean. One old lien from 2011 shows as released. The release document is attached for the file.",
+      "labels": ["agent-inbox", "inbox"],
+      "received_at": "2026-09-28T16:47:00Z"
+    },
+    {
+      "id": "m-1006",
+      "thread_id": "t-505",
+      "from": "lee.park@example.com",
+      "to": ["loans@example.com"],
+      "subject": "Bank statements, application A-2240",
+      "body": "Uploading two months of bank statements. The large deposit on September 3 is a gift from my parents; I can get a gift letter if you need one.",
+      "labels": ["agent-inbox"],
+      "received_at": "2026-09-27T08:22:00Z"
+    },
+    {
+      "id": "m-2001",
+      "thread_id": "t-601",
+      "from": "newsletter@example.net",
+      "to": ["loans@example.com"],
+      "subject": "Weekly rate roundup",
+      "body": "Rates moved slightly this week. Read the full roundup on our site.",
+      "labels": ["inbox"],
+      "received_at": "2026-09-30T06:00:00Z"
+    },
+    {
+      "id": "m-2002",
+      "thread_id": "t-602",
+      "from": "it-helpdesk@example.com",
+      "to": ["loans@example.com"],
+      "subject": "Password reset for shared mailbox",
+      "body": "A password reset was requested for the shared mailbox. If this was not you, contact the help desk at +1 555 010 0199.",
+      "labels": ["inbox"],
+      "received_at": "2026-09-29T21:30:00Z"
+    },
+    {
+      "id": "m-2003",
+      "thread_id": "t-603",
+      "from": "vendor-billing@example.org",
+      "to": ["loans@example.com"],
+      "subject": "Invoice 7731 overdue",
+      "body": "Invoice 7731 for credit report pulls is 15 days overdue. Please arrange payment.",
+      "labels": ["inbox"],
+      "received_at": "2026-09-26T12:00:00Z"
+    },
+    {
+      "id": "m-3001",
+      "thread_id": "t-701",
+      "from": "people-team@example.com",
+      "to": ["loans@example.com"],
+      "subject": "Confidential: compensation review, rate lock bonus",
+      "body": "Attached is the compensation review for the loan team, including the rate lock bonus plan. Do not forward.",
+      "labels": ["hr-private"],
+      "received_at": "2026-09-30T17:00:00Z"
+    },
+    {
+      "id": "m-3002",
+      "thread_id": "t-702",
+      "from": "legal@example.com",
+      "to": ["loans@example.com"],
+      "subject": "Privileged: complaint about application A-2231",
+      "body": "A complaint was filed about the handling of application A-2231. Keep this thread privileged.",
+      "labels": ["hr-private"],
+      "received_at": "2026-09-28T10:00:00Z"
+    }
+  ]
+}
