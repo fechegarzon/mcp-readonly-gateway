@@ -279,9 +279,7 @@ Built on the official [MCP Python SDK](https://github.com/modelcontextprotocol/p
 
 ## Related
 
-I write about running agents in production, including how this pattern
-fits with the rest of the stack, at
-[github.com/fechegarzon/ai-systems-in-production](https://github.com/fechegarzon/ai-systems-in-production).
+More about how I work with agents in production: [feche.xyz](https://feche.xyz).
 
 ## License
 

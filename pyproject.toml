@@ -23,7 +23,7 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/fechegarzon/mcp-readonly-gateway"
-"Related writeup" = "https://github.com/fechegarzon/ai-systems-in-production"
+"Homepage" = "https://feche.xyz"
 
 [project.scripts]
 mcp-readonly-gateway = "mcp_readonly_gateway.__main__:main"
